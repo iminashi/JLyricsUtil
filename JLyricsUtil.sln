@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JLyricsUtil", "JLyricsUtil\JLyricsUtil.csproj", "{11D911A5-F4BB-4BC9-8F00-2B173E4556EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11D911A5-F4BB-4BC9-8F00-2B173E4556EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11D911A5-F4BB-4BC9-8F00-2B173E4556EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11D911A5-F4BB-4BC9-8F00-2B173E4556EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11D911A5-F4BB-4BC9-8F00-2B173E4556EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8A3760A3-CDC8-4F6F-85FF-A777A8D58F73}
+	EndGlobalSection
+EndGlobal
