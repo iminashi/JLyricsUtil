@@ -4,6 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:JLyricsUtil"
+        xmlns:b="http://schemas.microsoft.com/xaml/behaviors"
         mc:Ignorable="d"
         Title="JLyricsUtil" Height="600" Width="1000">
     <Window.Resources>
@@ -86,6 +87,9 @@
                                     </StackPanel>
                                 </DataTemplate>
                             </ListBox.ItemTemplate>
+                            <b:Interaction.Behaviors>
+                                <local:IgnoreMouseWheelBehavior />
+                            </b:Interaction.Behaviors>
                         </ListBox>
                     </DataTemplate>
                 </ItemsControl.ItemTemplate>
